@@ -1,0 +1,5 @@
+*.md
+images
+design
+json
+node_modules/

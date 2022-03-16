@@ -1,0 +1,28 @@
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+p,
+a {
+  color: #68707d;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+}
+
+h1 {
+  font-size: 2.2rem;
+  line-height: 1.1;
+}
+
+@media (min-width: 25em) {
+  h1 {
+    font-size: 2.6rem;
+  }
+}
+
+h4 {
+  text-transform: uppercase;
+  color: #ff7d1a;
+}
+/*# sourceMappingURL=main.css.map */

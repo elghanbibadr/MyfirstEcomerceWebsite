@@ -1,0 +1,19 @@
+@mixin tablette {
+  @media (min-width: $mobile) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: $tablette) {
+    @content;
+  }
+}
+@mixin desktopLarge {
+  @media (min-width: $desktop) {
+    @content;
+  }
+}
+@mixin flex($justify-content) {
+  display: flex;
+  justify-content: $justify-content;
+}
