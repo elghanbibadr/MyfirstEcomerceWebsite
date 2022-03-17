@@ -15,7 +15,7 @@ h1 {
   line-height: 1.1;
 }
 
-@media (min-width: 25em) {
+@media (min-width: 37em) {
   h1 {
     font-size: 2.6rem;
   }
@@ -24,5 +24,143 @@ h1 {
 h4 {
   text-transform: uppercase;
   color: #ff7d1a;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  padding: 1rem 1.5rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (min-width: 37em) {
+  .nav {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+
+@media (min-width: 37em) and (min-width: 48em) {
+  .nav {
+    padding-inline: 5rem;
+  }
+}
+
+@media (min-width: 37em) {
+  .nav__menu {
+    display: none;
+  }
+  .nav__right {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+  }
+}
+
+@media (min-width: 37em) and (min-width: 48em) {
+  .nav__right {
+    right: 5rem;
+  }
+}
+
+.nav__left {
+  margin-top: 0.7rem;
+}
+
+.nav__menu, .nav__close, .nav__cart {
+  cursor: pointer;
+}
+
+.nav__menu {
+  margin-right: 10px;
+}
+
+.nav__cart {
+  margin-bottom: 0.4rem;
+}
+
+.nav__avatar {
+  width: 2.4rem;
+  margin-left: 1rem;
+}
+
+.nav__modalContent {
+  display: none;
+  width: 100%;
+}
+
+@media (min-width: 37em) {
+  .nav__modalContent {
+    display: block;
+    margin: 0.5rem 0 0 1rem;
+  }
+  .nav__modalContent svg {
+    display: none;
+  }
+  .nav__modalContent li {
+    display: inline-block;
+    margin-left: 6px;
+  }
+}
+
+@media (min-width: 37em) and (min-width: 48em) {
+  .nav__modalContent li {
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 37em) {
+  .modal {
+    display: block;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.589);
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .modal svg {
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+  }
+  .showlist {
+    background-color: white;
+    height: 100vh;
+    width: 50%;
+    padding-top: 4rem;
+    padding-left: 1.5rem;
+  }
+  .showlist li {
+    margin-block: 10px;
+  }
+  .showlist a {
+    color: black;
+    font-weight: bold;
+  }
 }
 /*# sourceMappingURL=main.css.map */

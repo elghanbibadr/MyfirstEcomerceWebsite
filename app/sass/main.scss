@@ -1,3 +1,98 @@
 @import "../partials/variabels";
 @import "../partials/mixins";
 @import "../partials/typography";
+@import "../partials/generals";
+.nav {
+  padding: 1rem 1.5rem;
+  position: relative;
+  @include flex(space-between);
+  flex-wrap: wrap;
+  @include tablette {
+    flex-wrap: nowrap;
+    @include desktop {
+      padding-inline: 5rem;
+    }
+    &__menu {
+      display: none;
+    }
+    &__right {
+      position: absolute;
+      top: 1rem;
+      right: 2rem;
+      @include desktop {
+        right: 5rem;
+      }
+    }
+  }
+  &__left {
+    margin-top: 0.7rem;
+  }
+  &__menu,
+  &__close,
+  &__cart {
+    cursor: pointer;
+  }
+  &__menu {
+    margin-right: 10px;
+  }
+  &__cart {
+    margin-bottom: 0.4rem;
+  }
+  &__avatar {
+    width: 2.4rem;
+    margin-left: 1rem;
+  }
+  // list
+  &__modalContent {
+    display: none;
+    width: 100%;
+    @include tablette {
+      display: block;
+      margin: 0.5rem 0 0 1rem;
+      svg {
+        display: none;
+      }
+      li {
+        display: inline-block;
+        margin-left: 6px;
+        @include desktop {
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
+}
+// collapsible
+@media (max-width: $mobile) {
+  .modal {
+    display: block;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.589);
+    z-index: 999;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    svg {
+      position: absolute;
+      top: 1rem;
+      left: 1.5rem;
+    }
+  }
+
+  .showlist {
+    background-color: white;
+    height: 100vh;
+    width: 50%;
+    padding-top: 4rem;
+    padding-left: 1.5rem;
+    li {
+      margin-block: 10px;
+    }
+    a {
+      color: black;
+      font-weight: bold;
+    }
+  }
+}
