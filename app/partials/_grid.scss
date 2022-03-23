@@ -1,0 +1,9 @@
+@include desktopLarge {
+  .grid {
+    display: grid;
+  }
+  .grid--cols2 {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}

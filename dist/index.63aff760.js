@@ -519,18 +519,104 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"adjPd":[function(require,module,exports) {
+var _nav = require("./nav");
+// navigation
 let navMenu = document.querySelector('.nav__menu');
 let navClose = document.querySelector('.nav__close');
+navMenu.addEventListener('click', _nav.showNav);
+navClose.addEventListener('click', _nav.hideNav);
+// image slider
+let previous = document.querySelector('.previous');
+let next = document.querySelector('.next');
+let images = document.querySelectorAll('.product-images');
+console.log(images);
+let count = 0;
+next.addEventListener('click', ()=>{
+    if (count === images.length - 1) count = 0;
+    else count++;
+    images.forEach((img)=>img.classList.add('hidden')
+    );
+    images[count].classList.remove('hidden');
+    images[count].classList.add('visible');
+});
+//  previous
+previous.addEventListener('click', ()=>{
+    if (count === 0) count = images.length - 1;
+    else count--;
+    images.forEach((img)=>img.classList.add('hidden')
+    );
+    images[count].classList.remove('hidden');
+    images[count].classList.add('visible');
+});
+//  desktop gallery
+const magicImage = document.querySelector('.magic');
+// const magicBlock=document.querySelector('.img-block');
+// magicBlock.addEventListener('click',()=>{
+//     magicBlock.classList.toggle('modal2');
+//     magicImage.style.marginTop='8rem'
+// });
+images.forEach((img)=>{
+    img.addEventListener('click', (e)=>magicImage.src = e.target.src
+    );
+});
+// add quantity and to card
+const plus = document.querySelector('.plus');
+const minus = document.querySelector('.minus');
+const quantity = document.querySelector('.quantity');
+plus.addEventListener('click', ()=>{
+    quantity.textContent++;
+});
+minus.addEventListener('click', ()=>{
+    quantity.textContent--;
+});
+
+},{"./nav":"c0Bfy"}],"c0Bfy":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "showNav", ()=>showNav
+);
+parcelHelpers.export(exports, "hideNav", ()=>hideNav
+);
 let navModalContent = document.querySelector('.nav__modalContent');
 let navList = document.querySelector('.nav__list');
-navMenu.addEventListener('click', ()=>{
+function showNav() {
     navModalContent.classList.add('modal');
     navList.classList.add('showlist');
-});
-navClose.addEventListener('click', ()=>{
+}
+function hideNav() {
     navList.classList.remove('showlist');
     navModalContent.classList.remove('modal');
-});
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, '__esModule', {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === 'default' || key === '__esModule' || dest.hasOwnProperty(key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
 
 },{}]},["kQMTH","adjPd"], "adjPd", "parcelRequire59c4")
 
