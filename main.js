@@ -9,7 +9,6 @@ let navClose=document.querySelector('.nav__close');
     let previous=document.querySelector('.previous');
     let next=document.querySelector('.next');
     let images=document.querySelectorAll('.product-images');
- console.log(images) 
  let count=0;
  next.addEventListener('click',()=>{
      if (count===images.length-1) count=0;
