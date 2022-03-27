@@ -1,1 +1,0 @@
-{"mappings":"AACA;EACE,kBCDU","sources":["app/sass/main.scss","app/partials/_variabels.scss"],"sourcesContent":["@import \"../partials/variabels\";\r\nbody {\r\n  background-color: $secondary;\r\n}\r\n",null],"names":[],"version":3,"file":"index.bffc8ef2.css.map","sourceRoot":"/__parcel_source_root/"}

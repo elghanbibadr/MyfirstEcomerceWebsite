@@ -1,4 +1,4 @@
-4901
+4884
 82C:\Users\hp\Desktop\MyEcommercePage\node_modules\svgo\plugins\removeUselessDefs.js132919065268952258 0
 90C:\Users\hp\Desktop\MyEcommercePage\node_modules\electron-to-chromium\chromium-versions.js132919065200744580 0
 91C:\Users\hp\Desktop\MyEcommercePage\node_modules\caniuse-lite\data\features\input-search.js132919065422330507 0
@@ -15,7 +15,7 @@
 83C:\Users\hp\Desktop\MyEcommercePage\node_modules\svgo\plugins\convertShapeToPath.js132919065238682724 0
 97C:\Users\hp\Desktop\MyEcommercePage\node_modules\source-map-support\browser-source-map-support.js132919065197336994 0
 61C:\Users\hp\Desktop\MyEcommercePage\node_modules\htmlnano\lib132919065225500603 1
-40C:\Users\hp\Desktop\MyEcommercePage\dist132928681149994357 1
+40C:\Users\hp\Desktop\MyEcommercePage\dist132928684310418254 1
 71C:\Users\hp\Desktop\MyEcommercePage\node_modules\lodash.memoize\LICENSE132919065202111491 0
 80C:\Users\hp\Desktop\MyEcommercePage\node_modules\weak-lru-cache\rollup.config.js132919065210108265 0
 86C:\Users\hp\Desktop\MyEcommercePage\node_modules\posthtml\node_modules\posthtml-parser132919065212939178 1
@@ -204,7 +204,7 @@
 54C:\Users\hp\Desktop\MyEcommercePage\node_modules\acorn132919065222365533 1
 74C:\Users\hp\Desktop\MyEcommercePage\node_modules\msgpackr\rollup.config.js132919065224731882 0
 62C:\Users\hp\Desktop\MyEcommercePage\node_modules\react-refresh132919065222081525 1
-63C:\Users\hp\Desktop\MyEcommercePage\dist\index.b1a91c76.css.map132928681149899288 0
+63C:\Users\hp\Desktop\MyEcommercePage\dist\index.b1a91c76.css.map132928684310259245 0
 61C:\Users\hp\Desktop\MyEcommercePage\node_modules\caniuse-lite132919065498780039 1
 64C:\Users\hp\Desktop\MyEcommercePage\node_modules\xxhash-wasm\umd132919065216023441 1
 55C:\Users\hp\Desktop\MyEcommercePage\node_modules\stable132919065207301977 1
@@ -337,7 +337,7 @@
 103C:\Users\hp\Desktop\MyEcommercePage\node_modules\postcss-merge-rules\types\lib\ensureCompatibility.d.ts132919065215953910 0
 61C:\Users\hp\Desktop\MyEcommercePage\node_modules\svgo\plugins132919065273133553 1
 97C:\Users\hp\Desktop\MyEcommercePage\node_modules\caniuse-lite\data\features\element-from-point.js132919065344476712 0
-62C:\Users\hp\Desktop\MyEcommercePage\dist\index.7bbfbeb0.js.map132928681149880085 0
+62C:\Users\hp\Desktop\MyEcommercePage\dist\index.7bbfbeb0.js.map132928684310158176 0
 71C:\Users\hp\Desktop\MyEcommercePage\node_modules\is-arrayish\.npmignore132919065198856515 0
 92C:\Users\hp\Desktop\MyEcommercePage\node_modules\caniuse-lite\data\features\dispatchevent.js132919065341823983 0
 78C:\Users\hp\Desktop\MyEcommercePage\node_modules\postcss-calc\src\parser.jison132919065200517628 0
@@ -359,7 +359,6 @@
 96C:\Users\hp\Desktop\MyEcommercePage\node_modules\lmdb\prebuilds\linux-arm64\node.abi83.musl.node132919065359174199 0
 94C:\Users\hp\Desktop\MyEcommercePage\node_modules\caniuse-lite\data\features\x-frame-options.js132919065496596770 0
 56C:\Users\hp\Desktop\MyEcommercePage\node_modules\globals132919065216448373 1
-69C:\Users\hp\Desktop\MyEcommercePage\dist\image-product-2.f4a349ad.jpg132928620884808501 0
 78C:\Users\hp\Desktop\MyEcommercePage\node_modules\type-fest\source\entries.d.ts132919065226809513 0
 84C:\Users\hp\Desktop\MyEcommercePage\node_modules\postcss-merge-longhand\src\index.js132919065228533999 0
 96C:\Users\hp\Desktop\MyEcommercePage\node_modules\caniuse-lite\data\features\css-logical-props.js132919065323496198 0
@@ -830,7 +829,7 @@
 69C:\Users\hp\Desktop\MyEcommercePage\node_modules\json5\dist\index.mjs132919065233695072 0
 76C:\Users\hp\Desktop\MyEcommercePage\node_modules\yaml\dist\legacy-exports.js132919065225772093 0
 92C:\Users\hp\Desktop\MyEcommercePage\node_modules\postcss-merge-longhand\src\lib\parseTrbl.js132919065242276679 0
-51C:\Users\hp\Desktop\MyEcommercePage\dist\index.html132928681149880085 0
+51C:\Users\hp\Desktop\MyEcommercePage\dist\index.html132928684310158176 0
 70C:\Users\hp\Desktop\MyEcommercePage\node_modules\detect-libc\README.md132919065202641302 0
 86C:\Users\hp\Desktop\MyEcommercePage\node_modules\postcss-normalize-positions\README.md132919065205998979 0
 81C:\Users\hp\Desktop\MyEcommercePage\node_modules\entities\lib\decode_codepoint.js132919065200343268 0
@@ -1500,7 +1499,6 @@
 96C:\Users\hp\Desktop\MyEcommercePage\node_modules\@parcel\package-manager\src\NodeResolverBase.js132919065246976975 0
 85C:\Users\hp\Desktop\MyEcommercePage\node_modules\postcss-minify-font-values\types\lib132919065226650979 1
 84C:\Users\hp\Desktop\MyEcommercePage\node_modules\stylehacks\src\plugins\bodyEmpty.js132919065201037848 0
-66C:\Users\hp\Desktop\MyEcommercePage\dist\image-avatar.2984032f.png132928620884696907 0
 84C:\Users\hp\Desktop\MyEcommercePage\node_modules\stylehacks\src\plugins\important.js132919065220466852 0
 63C:\Users\hp\Desktop\MyEcommercePage\node_modules\nan\nan_weak.h132919065244976288 0
 89C:\Users\hp\Desktop\MyEcommercePage\node_modules\postcss-selector-parser\dist\tokenize.js132919065246762862 0
@@ -1590,7 +1588,6 @@
 102C:\Users\hp\Desktop\MyEcommercePage\node_modules\caniuse-lite\data\features\css-backgroundblendmode.js132919065310834330 0
 81C:\Users\hp\Desktop\MyEcommercePage\node_modules\htmlnano\docs\versioned_sidebars132919065265140114 1
 99C:\Users\hp\Desktop\MyEcommercePage\node_modules\postcss-merge-longhand\types\lib\insertCloned.d.ts132919065259318218 0
-72C:\Users\hp\Desktop\MyEcommercePage\dist\MyEcommercePage.3464ddca.js.map132919066956001371 0
 75C:\Users\hp\Desktop\MyEcommercePage\node_modules\source-map\source-map.d.ts132919065230876217 0
 82C:\Users\hp\Desktop\MyEcommercePage\node_modules\postcss-selector-parser\dist\util132919065248266624 1
 73C:\Users\hp\Desktop\MyEcommercePage\node_modules\lmdb\prebuilds\win32-x64132919065451577701 1
@@ -2050,7 +2047,6 @@
 86C:\Users\hp\Desktop\MyEcommercePage\node_modules\postcss-minify-gradients\package.json132919065206007715 0
 71C:\Users\hp\Desktop\MyEcommercePage\node_modules\nth-check\lib\parse.js132919065205679990 0
 83C:\Users\hp\Desktop\MyEcommercePage\node_modules\postcss-minify-gradients\README.md132919065209261537 0
-59C:\Users\hp\Desktop\MyEcommercePage\dist\index.bffc8ef2.css132919078545773953 0
 79C:\Users\hp\Desktop\MyEcommercePage\node_modules\@parcel\fs-search\package.json132919065202705464 0
 87C:\Users\hp\Desktop\MyEcommercePage\node_modules\entities\lib\decode_codepoint.d.ts.map132919065228943125 0
 94C:\Users\hp\Desktop\MyEcommercePage\node_modules\caniuse-lite\data\features\element-closest.js132919065344456760 0
@@ -3298,7 +3294,6 @@
 79C:\Users\hp\Desktop\MyEcommercePage\node_modules\css-select\lib\attributes.d.ts132919065246752894 0
 76C:\Users\hp\Desktop\MyEcommercePage\node_modules\css-select\lib\compile.d.ts132919065247366442 0
 80C:\Users\hp\Desktop\MyEcommercePage\node_modules\css-select\lib\compile.d.ts.map132919065231519246 0
-62C:\Users\hp\Desktop\MyEcommercePage\dist\index.63aff760.js.map132928673812753055 0
 90C:\Users\hp\Desktop\MyEcommercePage\node_modules\caniuse-lite\data\features\input-event.js132919065400663782 0
 79C:\Users\hp\Desktop\MyEcommercePage\node_modules\@parcel\core\src\assetUtils.js132919065248788584 0
 74C:\Users\hp\Desktop\MyEcommercePage\node_modules\css-select\lib\general.js132919065214347012 0
@@ -3338,7 +3333,7 @@
 75C:\Users\hp\Desktop\MyEcommercePage\node_modules\@parcel\runtime-js\LICENSE132919065201189740 0
 63C:\Users\hp\Desktop\MyEcommercePage\node_modules\braces\LICENSE132919071440015052 0
 81C:\Users\hp\Desktop\MyEcommercePage\node_modules\css-declaration-sorter\readme.md132919065216606943 0
-69C:\Users\hp\Desktop\MyEcommercePage\dist\image-product-1.9a9d503b.jpg132928681132265406 0
+69C:\Users\hp\Desktop\MyEcommercePage\dist\image-product-1.9a9d503b.jpg132928684310138233 0
 84C:\Users\hp\Desktop\MyEcommercePage\node_modules\css-declaration-sorter\src\main.mjs132919065223395259 0
 80C:\Users\hp\Desktop\MyEcommercePage\node_modules\caniuse-lite\data\regions\KW.js132919065435318598 0
 95C:\Users\hp\Desktop\MyEcommercePage\node_modules\css-declaration-sorter\orders\alphabetical.mjs132919065219253329 0
@@ -3375,7 +3370,6 @@
 80C:\Users\hp\Desktop\MyEcommercePage\node_modules\caniuse-lite\data\regions\RO.js132919065467672102 0
 83C:\Users\hp\Desktop\MyEcommercePage\node_modules\cosmiconfig\dist\readFile.d.ts.map132919065246274046 0
 91C:\Users\hp\Desktop\MyEcommercePage\node_modules\caniuse-lite\data\features\border-image.js132919065277064424 0
-69C:\Users\hp\Desktop\MyEcommercePage\dist\image-product-4.c6929eec.jpg132928620884829245 0
 76C:\Users\hp\Desktop\MyEcommercePage\node_modules\cosmiconfig\dist\types.d.ts132919065256896439 0
 96C:\Users\hp\Desktop\MyEcommercePage\node_modules\@parcel\transformer-image\src\validateConfig.js132919065216100963 0
 80C:\Users\hp\Desktop\MyEcommercePage\node_modules\cosmiconfig\dist\types.d.ts.map132919065247679691 0
@@ -3390,7 +3384,6 @@
 66C:\Users\hp\Desktop\MyEcommercePage\node_modules\commander\typings132919065220873803 1
 77C:\Users\hp\Desktop\MyEcommercePage\node_modules\commander\typings\index.d.ts132919065222001451 0
 68C:\Users\hp\Desktop\MyEcommercePage\node_modules\colord\CHANGELOG.md132919065226641002 0
-59C:\Users\hp\Desktop\MyEcommercePage\dist\index.e4e4445e.css132928674686838165 0
 70C:\Users\hp\Desktop\MyEcommercePage\node_modules\colord\constants.d.ts132919065247476650 0
 68C:\Users\hp\Desktop\MyEcommercePage\node_modules\colord\helpers.d.ts132919065249267517 0
 122C:\Users\hp\Desktop\MyEcommercePage\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-alias\foo.js132919065244812898 0
@@ -3627,7 +3620,6 @@
 80C:\Users\hp\Desktop\MyEcommercePage\node_modules\caniuse-lite\data\regions\SB.js132919065469508365 0
 88C:\Users\hp\Desktop\MyEcommercePage\node_modules\@parcel\core\src\ParcelConfig.schema.js132919065302938882 0
 80C:\Users\hp\Desktop\MyEcommercePage\node_modules\caniuse-lite\data\regions\SC.js132919065470057790 0
-69C:\Users\hp\Desktop\MyEcommercePage\dist\image-product-3.e8ecbe33.jpg132928620884819197 0
 80C:\Users\hp\Desktop\MyEcommercePage\node_modules\caniuse-lite\data\regions\SD.js132919065471682461 0
 80C:\Users\hp\Desktop\MyEcommercePage\node_modules\caniuse-lite\data\regions\SL.js132919065474975038 0
 75C:\Users\hp\Desktop\MyEcommercePage\node_modules\@babel\highlight\README.md132919065198950394 0
@@ -4037,7 +4029,6 @@
 66C:\Users\hp\Desktop\MyEcommercePage\node_modules\callsites\license132919065205158180 0
 71C:\Users\hp\Desktop\MyEcommercePage\node_modules\callsites\package.json132919065195449701 0
 68C:\Users\hp\Desktop\MyEcommercePage\node_modules\callsites\readme.md132919065208397606 0
-58C:\Users\hp\Desktop\MyEcommercePage\dist\index.63aff760.js132928673812629824 0
 68C:\Users\hp\Desktop\MyEcommercePage\node_modules\buffer-from\LICENSE132919065195261254 0
 70C:\Users\hp\Desktop\MyEcommercePage\node_modules\buffer-from\readme.md132919065205001185 0
 98C:\Users\hp\Desktop\MyEcommercePage\node_modules\@parcel\transformer-babel\lib\BabelTransformer.js132919065213590383 0
@@ -4335,7 +4326,6 @@
 92C:\Users\hp\Desktop\MyEcommercePage\node_modules\@parcel\transformer-js\lib\JSTransformer.js132919065209288035 0
 98C:\Users\hp\Desktop\MyEcommercePage\node_modules\@parcel\transformer-image\src\ImageTransformer.js132919065204286888 0
 98C:\Users\hp\Desktop\MyEcommercePage\node_modules\@parcel\transformer-image\lib\ImageTransformer.js132919065200778354 0
-79C:\Users\hp\Desktop\MyEcommercePage\dist\image-product-1-thumbnail.bb24ba40.jpg132920029608655853 0
 77C:\Users\hp\Desktop\MyEcommercePage\node_modules\.bin\node-gyp-build-test.ps1132919065501948084 0
 86C:\Users\hp\Desktop\MyEcommercePage\node_modules\@parcel\transformer-html\package.json132919065217877714 0
 93C:\Users\hp\Desktop\MyEcommercePage\node_modules\@parcel\transformer-html\src\dependencies.js132919065204865936 0
@@ -4726,7 +4716,7 @@
 85C:\Users\hp\Desktop\MyEcommercePage\node_modules\@parcel\core\src\UncommittedAsset.js132919065317113513 0
 74C:\Users\hp\Desktop\MyEcommercePage\node_modules\@parcel\core\src\utils.js132919065317565105 0
 79C:\Users\hp\Desktop\MyEcommercePage\node_modules\@parcel\core\src\Validation.js132919065318207638 0
-58C:\Users\hp\Desktop\MyEcommercePage\dist\index.0cd1f805.js132928681149880085 0
+58C:\Users\hp\Desktop\MyEcommercePage\dist\index.0cd1f805.js132928684310158176 0
 95C:\Users\hp\Desktop\MyEcommercePage\node_modules\@parcel\core\src\requests\AssetGraphRequest.js132919065246255074 0
 90C:\Users\hp\Desktop\MyEcommercePage\node_modules\@parcel\core\src\requests\AssetRequest.js132919065247446912 0
 96C:\Users\hp\Desktop\MyEcommercePage\node_modules\@parcel\core\src\requests\BundleGraphRequest.js132919065260409373 0
@@ -4870,20 +4860,13 @@
 72C:\Users\hp\Desktop\MyEcommercePage\images\image-product-3-thumbnail.jpg132918516446259692 0
 72C:\Users\hp\Desktop\MyEcommercePage\images\image-product-4-thumbnail.jpg132918516447022648 0
 62C:\Users\hp\Desktop\MyEcommercePage\images\image-product-4.jpg132918516447418288 0
-67C:\Users\hp\Desktop\MyEcommercePage\dist\favicon-32x32.654148d5.png132919066955863208 0
-66C:\Users\hp\Desktop\MyEcommercePage\dist\image-avatar.abe277d5.png132928681132265406 0
-69C:\Users\hp\Desktop\MyEcommercePage\dist\image-product-1.5bc88435.jpg132928620884819197 0
-69C:\Users\hp\Desktop\MyEcommercePage\dist\image-product-2.26974f01.jpg132928681132265406 0
-69C:\Users\hp\Desktop\MyEcommercePage\dist\image-product-3.1f3a9183.jpg132928681132265406 0
-69C:\Users\hp\Desktop\MyEcommercePage\dist\image-product-4.0c4028d7.jpg132928681132265406 0
-62C:\Users\hp\Desktop\MyEcommercePage\dist\index.0cd1f805.js.map132928681149880085 0
-58C:\Users\hp\Desktop\MyEcommercePage\dist\index.7bbfbeb0.js132928681149880085 0
-59C:\Users\hp\Desktop\MyEcommercePage\dist\index.b1a91c76.css132928681149880085 0
-63C:\Users\hp\Desktop\MyEcommercePage\dist\index.bffc8ef2.css.map132919078545773953 0
-58C:\Users\hp\Desktop\MyEcommercePage\dist\index.c4775257.js132919077824178680 0
-62C:\Users\hp\Desktop\MyEcommercePage\dist\index.c4775257.js.map132919077824715085 0
-63C:\Users\hp\Desktop\MyEcommercePage\dist\index.e4e4445e.css.map132928674686838165 0
-68C:\Users\hp\Desktop\MyEcommercePage\dist\MyEcommercePage.3464ddca.js132919066955863208 0
+66C:\Users\hp\Desktop\MyEcommercePage\dist\image-avatar.abe277d5.png132928684310138233 0
+69C:\Users\hp\Desktop\MyEcommercePage\dist\image-product-2.26974f01.jpg132928684310148197 0
+69C:\Users\hp\Desktop\MyEcommercePage\dist\image-product-3.1f3a9183.jpg132928684310148197 0
+69C:\Users\hp\Desktop\MyEcommercePage\dist\image-product-4.0c4028d7.jpg132928684310148197 0
+62C:\Users\hp\Desktop\MyEcommercePage\dist\index.0cd1f805.js.map132928684310158176 0
+58C:\Users\hp\Desktop\MyEcommercePage\dist\index.7bbfbeb0.js132928684310158176 0
+59C:\Users\hp\Desktop\MyEcommercePage\dist\index.b1a91c76.css132928684310158176 0
 73C:\Users\hp\Desktop\MyEcommercePage\design\active-states-basket-empty.jpg132918516432861990 0
 69C:\Users\hp\Desktop\MyEcommercePage\design\active-states-lightbox.jpg132918516433677229 0
 61C:\Users\hp\Desktop\MyEcommercePage\design\desktop-design.jpg132918516434570619 0
