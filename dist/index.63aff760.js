@@ -550,11 +550,6 @@ previous.addEventListener('click', ()=>{
 });
 //  desktop gallery
 const magicImage = document.querySelector('.magic');
-// const magicBlock=document.querySelector('.img-block');
-// magicBlock.addEventListener('click',()=>{
-//     magicBlock.classList.toggle('modal2');
-//     magicImage.style.marginTop='8rem'
-// });
 images.forEach((img)=>{
     img.addEventListener('click', (e)=>magicImage.src = e.target.src
     );
@@ -568,6 +563,33 @@ plus.addEventListener('click', ()=>{
 });
 minus.addEventListener('click', ()=>{
     quantity.textContent--;
+});
+// empty card
+let cart = document.querySelector('.nav__cart');
+let emptyCart = document.querySelector('.emptyCard');
+cart.addEventListener('click', ()=>{
+    emptyCart.classList.toggle('showcard');
+});
+// add to card
+const cardMessage = document.querySelector('.cardMessage');
+const addToCardBtn = document.querySelector('.btns__addToCard');
+const numberOfItems = document.querySelector('.NumberOfItems');
+const checkOutBtn = document.querySelector('.btn-checkout');
+addToCardBtn.addEventListener('click', ()=>{
+    if (quantity.textContent <= 0) numberOfItems.style.display = 'none';
+    else {
+        numberOfItems.classList.add('showNumberOfItems');
+        numberOfItems.textContent = quantity.textContent;
+    }
+});
+cart.addEventListener('click', ()=>{
+    if (numberOfItems.textContent > 0) {
+        checkOutBtn.classList.add('showBtn');
+        cardMessage.textContent = `Your Total is : 125$ x ${quantity.textContent} :${125 * parseInt(quantity.textContent)}$`;
+    }
+});
+checkOutBtn.addEventListener('click', ()=>{
+    emptyCart.classList.remove('showcard');
 });
 
 },{"./nav":"c0Bfy"}],"c0Bfy":[function(require,module,exports) {

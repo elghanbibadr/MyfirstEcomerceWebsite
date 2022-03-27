@@ -33,6 +33,16 @@ h4 {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+*:focus {
+  outline: none !important;
 }
 
 ul {
@@ -103,12 +113,41 @@ img {
   margin-right: 10px;
 }
 
-.nav__cart {
-  margin-bottom: 0.4rem;
+.nav .cart {
+  margin-bottom: -1rem;
+  margin-left: -50px;
+  margin-top: 1rem;
+  position: relative;
+}
+
+.nav .cart span {
+  height: 1rem;
+  position: absolute;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  top: -40%;
+  width: 1.3rem;
+  border-radius: 50%;
+  background-color: #ff7d1a;
+  left: 10%;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  display: none;
+}
+
+.nav .cart .showNumberOfItems {
+  display: block;
 }
 
 .nav__avatar {
   width: 2.4rem;
+  margin-top: -1rem;
   margin-left: 1rem;
 }
 
@@ -143,7 +182,7 @@ img {
     height: 100vh;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.589);
-    z-index: 999;
+    z-index: 9999;
     top: 0;
     left: 0;
     width: 100%;
@@ -167,6 +206,64 @@ img {
     color: black;
     font-weight: bold;
   }
+}
+
+.emptyCard {
+  background-color: #fff;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 18px #ccc;
+          box-shadow: 0 0 18px #ccc;
+  width: 90%;
+  margin-top: 1rem;
+  padding: 1rem;
+  height: 250px;
+  position: absolute;
+  left: 5%;
+  z-index: 8888;
+  display: none;
+}
+
+@media (min-width: 37em) {
+  .emptyCard {
+    width: 50%;
+    left: 50%;
+  }
+}
+
+@media (min-width: 37em) and (min-width: 68em) {
+  .emptyCard {
+    width: 30%;
+    left: 60%;
+  }
+}
+
+.emptyCard p {
+  margin: 4rem 0 0 7rem;
+}
+
+.showcard {
+  display: block;
+}
+
+.btn-checkout {
+  background-color: #ff7d1a;
+  font-weight: bold;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 3rem;
+  position: relative;
+  left: 2%;
+  width: 80%;
+  cursor: pointer;
+  padding: 12px 1rem;
+  font-size: 1.5rem;
+  margin-inline: auto;
+  display: none;
+}
+
+.showBtn {
+  display: block;
 }
 
 @media (min-width: 68em) {
@@ -444,5 +541,9 @@ img {
 .main .plus,
 .main .minus {
   cursor: pointer;
+}
+
+.removedPrice {
+  text-decoration: line-through;
 }
 /*# sourceMappingURL=main.css.map */
