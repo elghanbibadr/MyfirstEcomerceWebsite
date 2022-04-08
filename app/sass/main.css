@@ -151,6 +151,25 @@ img {
   margin-left: 1rem;
 }
 
+.nav a {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.nav a:hover {
+  color: #999999;
+}
+
+@media (min-width: 37em) {
+  .nav a:hover {
+    padding-bottom: 5px;
+  }
+  .nav a:hover:hover {
+    color: #111;
+    border-bottom: 3px solid #111;
+  }
+}
+
 .nav__modalContent {
   display: none;
   width: 100%;
@@ -233,6 +252,9 @@ img {
 @media (min-width: 37em) and (min-width: 68em) {
   .emptyCard {
     width: 30%;
+    height: -webkit-fit-content !important;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
     left: 60%;
   }
 }

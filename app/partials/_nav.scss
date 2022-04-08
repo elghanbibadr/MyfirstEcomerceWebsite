@@ -64,6 +64,22 @@
     margin-left: 1rem;
   }
   // list
+  a{
+    transition: 0.5s;
+  }
+    a:hover{
+      color: rgb(153, 153, 153);
+      @include tablette{
+        &{
+          padding-bottom: 5px;
+        }
+        &:hover{
+          color: #111;
+          border-bottom: 3px solid #111;
+        }
+      }
+    }
+  
   &__modalContent {
     display: none;
     width: 100%;
@@ -76,6 +92,7 @@
       li {
         display: inline-block;
         margin-left: 6px;
+       
         @include desktop {
           margin-left: 1rem;
         }
@@ -121,7 +138,7 @@
   background-color: #fff;
   border-radius: 15px;
   box-shadow: 0 0 18px #ccc;
-  width: 90%;
+  width:90%;
   margin-top: 1rem;
   padding: 1rem;
   height: 250px;
@@ -134,6 +151,7 @@
     left: 50%;
     @include desktopLarge {
       width: 30%;
+      height: fit-content !important;
       left: 60%;
     }
   }

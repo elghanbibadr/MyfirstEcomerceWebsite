@@ -1,4 +1,16 @@
-import {hideNav, showNav} from './nav';
+// nav
+
+let navModalContent=document.querySelector('.nav__modalContent');
+let navList=document.querySelector('.nav__list');
+  function showNav(){
+    navModalContent.classList.add('modal');
+    navList.classList.add('showlist');
+}
+   
+ function hideNav(){
+    navList.classList.remove('showlist');
+    navModalContent.classList.remove('modal');
+}
 // navigation
 let navMenu=document.querySelector('.nav__menu');
 let navClose=document.querySelector('.nav__close');
