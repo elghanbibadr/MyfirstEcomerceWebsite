@@ -2,9 +2,10 @@
   "name": "myecommercepage",
   "version": "1.0.0",
   "description": "![Design preview for the E-commerce product page coding challenge](./design/desktop-preview.jpg)",
-  "main": "index.js",
+  "source": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/elghanbibadr/MyfirstEcomerceWebsite/issues"
   },
-  "homepage": "https://github.com/elghanbibadr/MyfirstEcomerceWebsite#readme"
+  "homepage": "https://github.com/elghanbibadr/MyfirstEcomerceWebsite#readme",
+  "devDependencies": {
+    "parcel": "^2.4.1"
+  }
 }
